@@ -1,0 +1,9 @@
+/* fade-in básico */
+.fade { opacity: 0; transform: translateY(12px);
+  transition: opacity .5s ease, transform .5s ease; }
+.fade.show { opacity: 1; transform: none; }
+
+/* acessibilidade */
+@media (prefers-reduced-motion: reduce) {
+  .fade, .fade.show { opacity: 1; transform: none; transition: none; }
+}

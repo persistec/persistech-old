@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Banner_Apoio" xml:space="preserve">
+    <value>Serviço de Apoio a Usuários</value>
+  </data>
+  <data name="Banner_Apoio_Txt" xml:space="preserve">
+    <value>Possuimos técnicos certificados e qualificados para oferecer soluções &lt;br /&gt;
+totalmente customizáveis e compatíveis com os sistemas existentes na sua empresa.</value>
+  </data>
+  <data name="Banner_Equipa" xml:space="preserve">
+    <value>Uma equipa profissional</value>
+  </data>
+  <data name="Banner_Equipa_Txt" xml:space="preserve">
+    <value>Assumimos qualquer desafio! Honramos os nossos compromissos, entregamos resultados!  &lt;br /&gt;
+Procuramos a mais alta qualidade em tudo o que fazemos.</value>
+  </data>
+  <data name="Banner_Hardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="Banner_Hardware_Txt" xml:space="preserve">
+    <value>Reposição de componentes de PC's, Mac e Servidores.</value>
+  </data>
+  <data name="Banner_ProtejaNegocio" xml:space="preserve">
+    <value>Proteja o seu negócio</value>
+  </data>
+  <data name="Banner_ProtejaNegocio_Txt" xml:space="preserve">
+    <value>Proteja o seu computador com as nossas soluções Kaspersky.</value>
+  </data>
+  <data name="Banner_Solucoes_Excelencia" xml:space="preserve">
+    <value>Soluções de Excelência</value>
+  </data>
+  <data name="Banner_Solucoes_Excelencia_Txt" xml:space="preserve">
+    <value>Somos uma empresa experiente dedicada a fornecer soluções de excelência&lt;br /&gt;
+aos nossos Clientes.</value>
+  </data>
+  <data name="Banner_Solucoes_NewMedia" xml:space="preserve">
+    <value>Soluções New Media</value>
+  </data>
+  <data name="Banner_Solucoes_NewMedia_Txt" xml:space="preserve">
+    <value>Promovemos e rentabilizamos o seu negócio online.</value>
+  </data>
+  <data name="Contactos" xml:space="preserve">
+    <value>Contactos</value>
+  </data>
+  <data name="Encomendar" xml:space="preserve">
+    <value>Encomendar</value>
+  </data>
+  <data name="Formulario_Enviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Formulario_Envio_Erro" xml:space="preserve">
+    <value>Ocorreu um erro no envio do email. Tente novamente.</value>
+  </data>
+  <data name="Formulario_Envio_Sucesso" xml:space="preserve">
+    <value>&lt;h3 style=""color:#42ab7b""&gt;Mensagem enviada com sucesso&lt;/h3&gt; A sua mensagem foi enviada com sucesso. Responderemos com brevidade.</value>
+  </data>
+  <data name="Formulario_Mensagem" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="Formulario_Nome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Home_boasVindas" xml:space="preserve">
+    <value>Conheça uma empresa inovadora capaz de responder às necessidades da sua empresa e fornecer serviços com alto profissionalismo.</value>
+  </data>
+  <data name="Home_LigueFacebook" xml:space="preserve">
+    <value>Ligue-se a nós</value>
+  </data>
+  <data name="Home_LigueFacebook_Txt" xml:space="preserve">
+    <value>Fique a par das nossas campanhas e promoções!</value>
+  </data>
+  <data name="Home_ProjectosRecentes" xml:space="preserve">
+    <value>Projetos Recentes</value>
+  </data>
+  <data name="Home_ProjectosRecentes_Txt" xml:space="preserve">
+    <value>Conheça os projectos que temos desenvolvido recentemente na área de comunicação e desenvolvimento de plataformas web.</value>
+  </data>
+  <data name="Home_Tecnologia" xml:space="preserve">
+    <value>Tecnologia</value>
+  </data>
+  <data name="Home_Tecnologia_Txt" xml:space="preserve">
+    <value>Certificação e Tecnologia</value>
+  </data>
+  <data name="Home_UltimasNovidades_Txt" xml:space="preserve">
+    <value>Últimas novidades</value>
+  </data>
+  <data name="Horario_de_Funcionamento" xml:space="preserve">
+    <value>Horário de Funcionamento</value>
+  </data>
+  <data name="Menu_Clientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="Menu_Clientes_Txt" xml:space="preserve">
+    <value>Conheça os nossos clientes</value>
+  </data>
+  <data name="Menu_Contactos" xml:space="preserve">
+    <value>Contatos</value>
+  </data>
+  <data name="Menu_Contactos_Txt" xml:space="preserve">
+    <value>Saiba com chegar até nós</value>
+  </data>
+  <data name="Menu_Inicio" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="Menu_LojaOnline" xml:space="preserve">
+    <value>Loja Online</value>
+  </data>
+  <data name="Menu_Produtos" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="Menu_Produtos_Txt" xml:space="preserve">
+    <value>Conheça os nossos produtos</value>
+  </data>
+  <data name="Menu_QuemSomos" xml:space="preserve">
+    <value>Quem Somos</value>
+  </data>
+  <data name="Menu_QuemSomos_Txt" xml:space="preserve">
+    <value>Conheça a empresa</value>
+  </data>
+  <data name="Menu_Servicos" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="Menu_Servicos_Txt" xml:space="preserve">
+    <value>Serviços de Excelência</value>
+  </data>
+  <data name="Menu_Solucoes" xml:space="preserve">
+    <value>Soluções</value>
+  </data>
+  <data name="Menu_Solucoes_Txt" xml:space="preserve">
+    <value>Soluções para a sua empresa</value>
+  </data>
+  <data name="Ver_mapa" xml:space="preserve">
+    <value>Ver mapa maior</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>&amp;copy; Copyright 2014. Todos os direitos reservados.</value>
+  </data>
+  <data name="meta_description" xml:space="preserve">
+    <value>Empresa de TI, com profissionais certificados pela Microsoft pronta a servi-lo e com qualidade. Não importa o tamanho da sua empresa, a nossa missão é levar até si, serviços e soluções de qualidade a um preço competitivo!</value>
+  </data>
+  <data name="meta_keywords" xml:space="preserve">
+    <value>Angola, Luanda, Soluções de Software, Soluções de Hardware, Helpdesk, Consultoria em IT, Redes, Reserva de domínio de internet com criação de e-mails corporativos grátis, Consultoria estratégica, Marketing digital, Design gráfico e Web design</value>
+  </data>
+  <data name="Programacao" xml:space="preserve">
+    <value>Programação</value>
+  </data>
+  <data name="Menu_NewMedia" xml:space="preserve">
+    <value>NewMedia</value>
+  </data>
+  <data name="Menu_NewMedia_Txt" xml:space="preserve">
+    <value>Websites e Comunicação</value>
+  </data>
+  <data name="Menu_ResponsabilidadeSocial" xml:space="preserve">
+    <value>Resp. Social</value>
+  </data>
+  <data name="Menu_ResponsabilidadeSocial_Txt" xml:space="preserve">
+    <value>Responsabilidade Social</value>
+  </data>
+  <data name="Newsletter_Erro" xml:space="preserve">
+    <value>Ocorreu um erro na subscrição. Tente novamente.</value>
+  </data>
+  <data name="Newsletter_Sucesso" xml:space="preserve">
+    <value>A sua subscrição foi efectuada com sucesso</value>
+  </data>
+  <data name="Menu_Noticias" xml:space="preserve">
+    <value>Notícias</value>
+  </data>
+  <data name="Menu_Noticias_Txt" xml:space="preserve">
+    <value>Novidades e Campanhas</value>
+  </data>
+</root>

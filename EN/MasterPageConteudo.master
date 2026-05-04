@@ -1,0 +1,213 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageConteudo.master.vb" Inherits="MasterPageConteudo" %>
+
+<%@ Register Src="controlos/RodapeDestaques.ascx" TagName="RodapeDestaques" TagPrefix="uc1" %>
+<%@ Register Src="controlos/MenuRodape.ascx" TagName="MenuRodape" TagPrefix="uc2" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Persistech</title>
+    <meta name="keywords" content="<%= Resources.LocalizedText.meta_keywords%>" />
+    <meta name="description" content="<%= Resources.LocalizedText.meta_description%>" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/nivo-slider_conteudo.css" />
+    <link rel="stylesheet" href="../css/style_conteudo.css" />
+    <!--[if IE 8]>
+<link rel="stylesheet" href="css/ie8.css" />
+<![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/jquery.fancybox-1.3.4.css" />
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.nivo.slider.pack.js"></script>
+
+    <script type="text/javascript" src="../js/jquery-ui-1.8.17.custom.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.mousewheel-3.0.4.pack.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.fancybox-1.3.4.pack.js"></script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+        <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40550836-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main">
+              <div id="header">
+            <div class="block one-fourth">
+                <div id="logo-container">
+                    <a href="default.aspx">
+                        <img style="top: 15px; left: -15px;" id="logo" src="../images/logo_EN.png" alt="Persistech" /></a>
+                </div>
+            </div>
+            <!--end one-fourth-->
+            <!--end one-half-->
+              <div class="block welcome-text" style="width: 450px;">
+                <div style="float: right; font-size: 12px; line-height:13px;  padding-left: 0px; color: #ebd493">
+                    <blockquote>
+                             <asp:Literal ID="lit_boasvindas" runat="server"></asp:Literal>
+                     
+                    </blockquote>
+                </div>
+            </div>
+            <div class="block last" style="text-align: right; font-size: 12px; padding-top: 15px;
+                width: 250px;">
+               <div style=" height:50px" >
+
+                <asp:Literal ID="lit_bandeiras" runat="server"></asp:Literal>
+
+                <ul class="social-icons">
+                    <li><a href="http://www.facebook.com/Persistech" target="_blank">
+                        <img src="../images/icons/facebook.png" alt="Facebook" /></a></li>
+                    <li><a href="http://www.linkedin.com/company/2090589"  target="_blank">
+                        <img src="../images/icons/linkdin.png" alt="Linkdin" /></a></li>
+                </ul>
+
+                
+
+               </div>
+                <div style="padding-top: 60px;">
+                    <ul class="botoes_header" style=" margin:0px; padding:0px; display:block; overflow:visible;">
+<%--                        <li style="height:37px;  margin:0px; padding:0px; float:right "><a href="Blog.aspx"><img src="../images/blog_tb.png" alt="" /></a></li>--%>
+                          <li style="height:37px;  margin:0px; padding:0px; float:right"><a href="http://loja.persistec.com" target="_blank">
+                              <img src="../images/online_store_bt.png" alt=""  /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--end one-fourth-->
+            <div class="clearfix">
+            </div>
+            <!--end clearfix-->
+        </div>
+        <!--end header-->
+        <div id="slider-container">
+            <div class="nivo-directionNav">
+                <a class="nivo-prevNav"></a><a class="nivo-nextNav"></a>
+            </div>
+            <div id="slider-wraper">
+                <div id="slider-top-separator">
+                </div>
+                <div id="slider">
+                    <div class="nivoSlider">
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/clientes_S.jpg" alt="" title="#slide-00-caption" />
+                            <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/webdesign_S.jpg" alt="" title="#slide-05-caption" />
+                        <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/kaspersky_S.jpg" alt="" title="#slide-01-caption" />
+                        <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/hand_S.jpg" alt="" title="#slide-02-caption" />
+                        <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/redes_S.jpg" alt="" title="#slide-03-caption" />
+                             <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                            src="../images/slider/servicos_S.jpg" alt="" title="#slide-04-caption" />
+                    </div>
+                </div>
+                 <div id="slide-00-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #74bce6;">
+                       <%= Resources.LocalizedText.Banner_Solucoes_Excelencia%></h1>
+                    <p style="background-color: #222;">
+                        <%= Resources.LocalizedText.Banner_Solucoes_Excelencia_Txt%>
+                    </p>
+                </div>
+                <div id="slide-01-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #05856e;">
+                        <%= Resources.LocalizedText.Banner_ProtejaNegocio%></h1>
+                    <p style="background-color: #222;">
+                      <%= Resources.LocalizedText.Banner_ProtejaNegocio_Txt%>
+                    </p>
+                </div>
+                <div id="slide-02-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #e56363;">
+                         <%= Resources.LocalizedText.Banner_Apoio%></h1>
+                    <p style="background-color: #222;">
+                      <%= Resources.LocalizedText.Banner_Apoio_Txt%>
+
+                    </p>
+                </div>
+                <div id="slide-03-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #48b385;">
+                       <%= Resources.LocalizedText.Banner_Equipa%></h1>
+                    <p style="background-color: #222;">
+                       <%= Resources.LocalizedText.Banner_Equipa_Txt%>
+
+                    </p>
+                </div>
+                  <div id="slide-04-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #027cd0;">
+                       <%= Resources.LocalizedText.Banner_Hardware%> </h1>
+                    <p style="background-color: #222;">
+                        <%= Resources.LocalizedText.Banner_Hardware_Txt%> 
+
+                    </p>
+                </div>
+                
+                <div id="slide-05-caption" class="nivo-html-caption">
+                    <h1 style="background-color: #69020c;">
+                       <%= Resources.LocalizedText.Banner_Solucoes_NewMedia%></h1>
+                    <p style="background-color: #222;">
+                       <%= Resources.LocalizedText.Banner_Solucoes_NewMedia_Txt%>
+
+                    </p>
+                </div>
+                <div id="slider-shadow-container">
+                </div>
+            </div>
+            <div id="menu-container" >
+                <div id="menu-parent">
+                    <div id="menu-parent-child">
+                    </div>
+                    <div id="menu-bg">
+                    </div>
+                    <div class="menu-selector">
+                    </div>
+                    <ul class="block nav">
+                        <asp:Literal ID="lit_menu" runat="server"></asp:Literal>
+                    </ul>
+                    <!--end nav-->
+                </div>
+            </div>
+            <!--end menu-container-->
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--end content-->
+        <uc1:RodapeDestaques ID="RodapeDestaques2" runat="server" />
+    </div>
+    <div class="footer-bar">
+    </div>
+    <div class="footer-menu">
+        <div style="margin-left: auto; margin-right: auto; width: 950px; height: 50; padding-top: 20px">
+            <uc2:MenuRodape ID="MenuRodape1" runat="server" />
+        </div>
+    </div>
+    <!--end main-->
+    <div class="style-color-element">
+    </div>
+    </form>
+</body>
+</html>

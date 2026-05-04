@@ -1,0 +1,133 @@
+.separator {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.lines {
+	display: table;
+	width: 100%;
+	margin-top: 70px;
+	white-space: nowrap;
+	border-margin: 20px;
+}
+
+.lines div {
+	display: table-cell;
+	padding: 0 15px 0 15px;
+	margin-bottom: 50px;
+}
+
+.lines:before {
+	display: table-cell;
+	content: '';
+	width: 50%;
+	height: 1px;
+	border-top: 1px solid #ededed;
+}
+
+.lines:after {
+	display: table-cell;
+	content: '';
+	width: 50%;
+	height: 1px;
+	border-top: 1px solid #ededed;
+}
+
+.lines div > *{
+	display: block;
+	margin-top: -9px;
+	margin-bottom: 20px;
+}
+
+.left .lines div {
+	padding: 0 15px 0 0;
+}
+
+.left .lines:before {
+	width: 0;
+}
+
+.left .lines:after {
+	width: 100%;
+}
+
+.right .lines div {
+	padding: 0 0 0 15px;
+}
+
+.right .lines:before {
+	width: 100%;
+}
+
+.right .lines:after {
+	width: 0;
+}
+
+.ie8-last {
+	margin-right: 0 !important;
+}
+
+#menu-parent-child {
+	width: 2000px;
+	left: -2001px;
+}
+
+.frame:before {
+	display: block;
+	position: absolute;
+	content: '';
+	height: 15px;
+	width: 50%;
+	left: 5px;
+	top: 100%;
+	margin-top: -15px;
+	background: url(../images/style/frame-shadow-left.png) top left no-repeat;
+	
+}
+
+.frame:after {
+	display: block;
+	position: absolute;
+	content: '';
+	height: 15px;
+	width: 50%;
+	right: 5px;
+	top: 100%;
+	margin-top: -15px;
+	background: url(../images/style/frame-shadow-right.png) top right no-repeat;
+}
+
+.projects-thumb:before {
+	display: block;
+	position:absolute;
+	content: '';
+	width: 50%;
+	height: 20px;
+	top: 100%;
+	left: 5px;
+	margin-top: -20px;
+	z-index: 1;
+	background: url(../images/style/frame-shadow-left.png) top left no-repeat;
+}
+
+.projects-thumb:after {
+	display: block;
+	position:absolute;
+	content: '';
+	width: 50%;
+	height: 20px;
+	top: 100%;
+	right: 5px;
+	margin-top: -20px;
+	z-index: 1;
+	background: url(../images/style/frame-shadow-right.png) top right no-repeat;
+}
+
+input {
+	line-height: 280%;
+}
+
+.social-container {
+	margin-top: -80px !important;
+	margin-bottom: 3px !important;
+}

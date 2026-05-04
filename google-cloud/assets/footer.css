@@ -1,0 +1,62 @@
+/* -------- Footer Persistec (preto + dourado #ffe066) -------- */
+
+/* fundo preto sólido conforme identidade visual */
+footer {
+  background: #151515 !important; 
+}
+
+/* texto padrão em dourado (#ffe066) */
+footer,
+footer p,
+footer li,
+footer a,
+footer .text-gray-400,
+footer .text-white,
+footer .text-gray-500,
+footer .text-gray-700 {
+  color: #ffe066 !important; 
+}
+
+/* títulos um pouco mais fortes */
+footer h3,
+footer .font-bold {
+  color: #ffe066 !important;
+  letter-spacing: 0.02em;
+}
+
+/* linhas/divisores em dourado translúcido */
+footer hr,
+footer [data-orientation="horizontal"],
+footer .bg-gray-700 {
+  background-color: rgba(255, 224, 102, 0.25) !important;
+}
+
+/* links: dourado por padrão, branco no hover para contraste */
+footer a {
+  color: #ffe066 !important;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+footer a:hover {
+  color: #ffffff !important;
+}
+
+/* ícones SVG herdam a cor do texto (dourado) */
+footer svg {
+  color: #ffe066 !important;
+  fill: currentColor !important;
+}
+
+/* copy em dourado */
+footer p.text-sm,
+footer p.text-gray-400 {
+  color: #ffe066 !important;
+}
+
+/* remove qualquer “azulado” residual vindo de utilitários */
+footer .bg-gray-900,
+footer .text-white,
+footer .text-gray-400 {
+  background: transparent !important;
+  color: #ffe066 !important;
+}
