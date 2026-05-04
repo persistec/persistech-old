@@ -112,18 +112,14 @@ Partial Class _Default
                     sC.Port = 587
                     sC.Send(mM)
 
+                    ' Redireciona para a página de sucesso após o envio bem-sucedido
+                    Response.Redirect("Success.aspx")
+
                 Catch ex As Exception
                     Panel_Formulario.Visible = True
-                Panel_Mensagem.Visible = True
-                lit_mensagem.Text = MAIL_MESSAGE_ERRO
+                    Panel_Mensagem.Visible = True
+                    lit_mensagem.Text = MAIL_MESSAGE_ERRO
                 End Try
-
-                Panel_Formulario.Visible = False
-                Panel_Mensagem.Visible = True
-                lit_mensagem.Text = MAIL_MESSAGE_OK
-
-                Page.SetFocus(HiddenField_Focus)
-
 
             Else
                 Panel_Formulario.Visible = True
