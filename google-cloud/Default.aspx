@@ -413,9 +413,20 @@
                                                     <asp:TextBox ID="txt_mensagem" runat="server" Height="200" TextMode="MultiLine" placeholder="Como podemos ajudar?" CssClass="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm w-full"></asp:TextBox>
                                                 </div>
 
-                                                <div class="flex">
+                                                <div class="flex items-center gap-4">
                                                     <asp:Button ID="bt_enviar" ValidationGroup="Inscricao" CssClass="gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-persistec-gold hover:bg-persistec-light-gold text-persistec-black px-8 py-2 text-lg w-full md:w-auto flex" runat="server" Text="ENVIAR" />
-
+                                                    
+                                                    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+                                                        <ProgressTemplate>
+                                                            <div class="flex items-center text-persistec-gold font-medium">
+                                                                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-persistec-gold" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                                                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                                                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                                                </svg>
+                                                                Enviando...
+                                                            </div>
+                                                        </ProgressTemplate>
+                                                    </asp:UpdateProgress>
                                                 </div>
                                             </div>
                                         </asp:Panel>
