@@ -2264,20 +2264,12 @@ body {
 }
 
 .persistec-gradient {
-  background: linear-gradient(45deg, #151515, #000);
+  background: #000000;
   position: relative
 }
 
 .persistec-gradient:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .08;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4af37' fill-opacity='0.25' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3Ccircle cx='13' cy='13' r='1'/%3E%3C/g%3E%3C/svg%3E");
-  pointer-events: none
+  display: none
 }
 
 .hero-section {
@@ -2286,14 +2278,7 @@ body {
 }
 
 .hero-section:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle, rgba(212, 175, 55, .10), rgba(212, 175, 55, 0) 70%);
-  z-index: 0
+  display: none
 }
 
 .texture-overlay {
@@ -3709,21 +3694,20 @@ body {
 }
 
 body {
-  background: #151515;
+  background: #000000;
 }
 
 .bg-persistec-black,
 header.bg-persistec-black {
-  /* background: #151515 !important; */
+  background: #000000 !important;
 }
 
 .persistec-gradient {
-  background: radial-gradient(ellipse 120% 80% at 50% 0%, #1e1a10 0%, #151515 55%, #0e0d0c 100%) !important;
+  background: #000000 !important;
 }
 
 .hero-section:before {
-  background-image: radial-gradient(ellipse 80% 60% at 60% 50%, rgba(212, 175, 55, .13), rgba(212, 175, 55, 0) 70%) !important;
-  opacity: 1;
+  display: none !important;
 }
 
 .text-persistec-gold,
@@ -3785,27 +3769,27 @@ a.bg-persistec-gold:hover {
 
 .bg-gray-50,
 section.bg-gray-50 {
-  background: radial-gradient(ellipse at 60% 40%, #fdf8ec 0%, #f0e5c8 100%) !important;
+  background: #f5e9cc !important;
 }
 
 .bg-white,
 section.bg-white,
 .bg-card {
-  background: radial-gradient(ellipse at 50% 30%, #fdf9f0 0%, #f2e9d4 100%) !important;
+  background: #f5e9cc !important;
 }
 
 #solutions.bg-white {
-  background: radial-gradient(ellipse at 50% 20%, #fefaf2 0%, #f5ecd8 100%) !important;
+  background: #f5e9cc !important;
 }
 
 #solutions .product-card,
 #solutions .bg-card {
-  background: #fffdf7 !important;
+  background: #f5e9cc !important;
 }
 
 #about.bg-white,
 #about .bg-card {
-  background: radial-gradient(ellipse at 40% 30%, #fefbf4 0%, #f3e9d5 100%) !important;
+  background: #f5e9cc !important;
 }
 
 .bg-white\/5,
@@ -3859,7 +3843,7 @@ a[style*="#F4B400"],
 a[style*="#0F9D58"] {
   border-color: var(--persistec-gold-core) !important;
   color: #6f4d12 !important;
-  background: linear-gradient(135deg, #fdf8ec, #f5ebd2) !important;
+  background: #f5e9cc !important;
   transition: all .3s ease !important;
 }
 
@@ -3963,7 +3947,7 @@ textarea::placeholder {
 
 /* Separador visual nas secções de clientes */
 .py-20:not(.persistec-gradient):not(#solutions):not(#about):not(#contact) {
-  background: radial-gradient(ellipse at 50% 50%, #fefaf2 0%, #f8edd8 100%);
+  background: #f5e9cc;
 }
 
 /* Header — linha dourada inferior subtil */

@@ -38,7 +38,7 @@
 
         body {
             font-family: 'DM Sans', sans-serif;
-            background: radial-gradient(ellipse at 50% 30%, #fdf9f0 0%, #f0e5c8 100%);
+            background: #000000;
             color: var(--gray-text);
             min-height: 100vh;
         }
@@ -88,6 +88,7 @@
             align-items: center;
             justify-content: center;
             padding: 4rem 1.5rem;
+            background: #000000;
         }
 
         /* ── Card — sem animação de entrada, adequado a contexto corporativo ── */
