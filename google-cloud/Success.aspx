@@ -21,7 +21,7 @@
             --gold-champagne: #E0C56A;
             --gold-pale: #F1E5C9;
             /* Gradiente metálico de 5 stops — alinhado com style.css */
-            --gold-metal: linear-gradient(105deg, #7a5018 0%, #c4902a 22%, #f2da6e 46%, #d4af37 62%, #9a6e10 100%);
+            --gold-metal: linear-gradient(105deg, #7a5018 0%, #c4902a 22%, #d4af37 62%, #9a6e10 100%);
             --gold-metal-hover: linear-gradient(105deg, #8a5c1a 0%, #d4a030 28%, #f5e07a 52%, #c49022 70%, #7a5018 100%);
             --gold-surface: #D4AF37;
             --black: #111111;

@@ -3752,6 +3752,8 @@ h3.text-persistec-gold,
 input.bg-persistec-gold,
 a.bg-persistec-gold {
   background: var(--persistec-gold-metal) !important;
+  background-size: 180% 180% !important;
+  background-position: left center !important;
   color: #11100d !important;
   border: 1px solid rgba(255, 248, 180, .65) !important;
   border-top-color: rgba(255, 255, 200, .85) !important;
@@ -3760,6 +3762,11 @@ a.bg-persistec-gold {
     0 2px 8px rgba(212, 175, 55, .25),
     inset 0 1px 0 rgba(255, 255, 220, .60),
     inset 0 -1px 0 rgba(80, 40, 0, .25) !important;
+  transition:
+    background-position .35s ease,
+    box-shadow .35s ease,
+    transform .35s ease,
+    filter .35s ease !important;
 }
 
 .bg-persistec-gold:hover,
@@ -3767,6 +3774,8 @@ a.bg-persistec-gold {
 input.bg-persistec-gold:hover,
 a.bg-persistec-gold:hover {
   background: var(--persistec-gold-metal-hover) !important;
+  background-position: right center !important;
+  transform: translateY(-1px);
   box-shadow:
     0 12px 32px rgba(212, 175, 55, .38),
     0 4px 12px rgba(111, 77, 18, .28),

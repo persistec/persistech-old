@@ -100,7 +100,7 @@
                     </section>
 
                     <!-- SOLUTIONS -->
-                    <section id="solutions" class="py-20 bg-white" data-fade>
+                    <section id="solutions" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossas Soluções Google</h2>
 
@@ -228,7 +228,7 @@
                     </section>
 
                     <!-- CLIENTES -->
-                    <section class="py-20" data-fade>
+                    <section class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossos Clientes</h2>
 
