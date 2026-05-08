@@ -31,8 +31,8 @@
                 <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
             </div>
 
-            <div class="min-h-screen flex flex-col">
-                <header class="bg-persistec-black shadow-md py-4 texture-overlay">
+            <div class="min-h-screen persistec-gradient flex flex-col">
+                <header class="shadow-md py-4 texture-overlay">
                     <div class="container mx-auto px-4 flex justify-between items-center">
                         <div class="flex items-center">
                             <img src="assets/img/Logotipo-Expandimos-Limites-br.png" alt="Persistech Logo" class="h-12 md:h-14" />
@@ -54,7 +54,7 @@
 
                 <main class="flex-grow">
                     <!-- HERO -->
-                    <section class="hero-section persistec-gradient text-white py-20 md:py-32" data-fade>
+                    <section class="hero-section bg-transparent text-white py-20 md:py-32" data-fade>
                         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
                             <div class="md:w-1/2 mb-10 md:mb-0">
                                 <img src="assets/img/a5a0e988-58fc-49d7-bb88-a45c98f03fe4.png" alt="Google Services" class="w-full h-auto max-w-md mx-auto" />
@@ -113,7 +113,7 @@
                                         <h3 class="font-semibold tracking-tight text-xl text-center text-persistec-gold">Google Chrome</h3>
                                     </div>
                                     <div class="p-6 pt-0 flex-grow">
-                                        <p class="text-sm text-gray-300 text-center">O navegador mais rápido e seguro, com sincronização entre dispositivos e extensões para produtividade.</p>
+                                        <p class="text-sm text-center text-black">O navegador mais rápido e seguro, com sincronização entre dispositivos e extensões para produtividade.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
                                         <a href="https://www.google.pt/intl/pt-PT/chrome/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>

@@ -3714,7 +3714,7 @@ body {
 
 .bg-persistec-black,
 header.bg-persistec-black {
-  background: #151515 !important;
+  /* background: #151515 !important; */
 }
 
 .persistec-gradient {
@@ -3903,6 +3903,21 @@ a[style*="#0F9D58"]:hover {
   color: rgba(255, 248, 226, .84) !important;
 }
 
+#solutions .product-card p,
+#about p,
+.py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) p {
+  color: #2f2618 !important;
+}
+
+#about .text-gray-500,
+#about .text-gray-600,
+#about .text-gray-700,
+.py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-500,
+.py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-600,
+.py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-700 {
+  color: #473a26 !important;
+}
+
 .focus-visible\:ring-ring:focus-visible,
 input:focus,
 textarea:focus {
@@ -3941,10 +3956,7 @@ textarea::placeholder {
 }
 
 /* Header — linha dourada inferior subtil */
-header.bg-persistec-black {
-  border-bottom: 1px solid rgba(212, 175, 55, .18) !important;
-  box-shadow: 0 1px 24px rgba(0, 0, 0, .40), 0 1px 0 rgba(212, 175, 55, .12) !important;
-}
+header.bg-persistec-black {}
 
 /* Nav links — sem underline animado, transição de cor apenas */
 
@@ -3959,4 +3971,8 @@ header.bg-persistec-black {
     animation: none;
     background-position: 0% center;
   }
+}
+
+.bg-transparent {
+  background: unset !important;
 }
