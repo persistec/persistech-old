@@ -46,8 +46,8 @@
                             <a href="#contact" class="text-white hover:text-persistec-gold transition-colors">Contato</a>
                         </nav>
 
-                        <a href="#contact" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 px-4 py-2 bg-persistec-gold hover:bg-persistec-light-gold text-black" target="_blank" rel="noopener noreferrer">Fale Conosco
-          
+                        <a href="#contact" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium hover:ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 px-4 py-2 bg-persistec-gold hover:bg-persistec-light-gold text-black" target="_blank" rel="noopener noreferrer">
+                        Fale Conosco
                         </a>
                     </div>
                 </header>
@@ -100,12 +100,12 @@
                     </section>
 
                     <!-- SOLUTIONS -->
-                    <section id="solutions" class="py-20 bg-gray-50" data-fade>
+                    <section id="solutions" class="py-20 bg-white" data-fade>
                         <div class="container mx-auto px-4">
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossas Soluções Google</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="0">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/6dc61029-4ebd-4bca-8fe0-620950da65e7.png" alt="Google Chrome" class="h-16 w-auto" />
@@ -116,12 +116,12 @@
                                         <p class="text-sm text-gray-300 text-center">O navegador mais rápido e seguro, com sincronização entre dispositivos e extensões para produtividade.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://www.google.pt/intl/pt-PT/chrome/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: #4285F4; color: #4285F4;">Saiba Mais</button></a>
+                                        <a href="https://www.google.pt/intl/pt-PT/chrome/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
                                     </div>
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #DB4437;" data-fade data-delay="100">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="100">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/cefa7a0a-9c61-4b02-8b93-43aac9778ccf.png" alt="Google Workspace" class="h-16 w-auto" />
@@ -132,12 +132,12 @@
                                         <p class="text-sm text-muted-foreground text-center">Ferramenta completa de comunicação e colaboração para sua empresa. E-mail, drive, documentos, planilhas e muito mais.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://workspace.google.com" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: #DB4437; color: #DB4437;">Saiba Mais</button></a>
+                                        <a href="https://workspace.google.com" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
                                     </div>
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #F4B400;" data-fade data-delay="200">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="200">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/d4951300-2e4a-4e69-997b-ddaaf0b8f499.png" alt="Google Workspace for Education" class="h-16 w-auto" />
@@ -148,11 +148,11 @@
                                         <p class="text-sm text-muted-foreground text-center">Soluções feitas para instituições de ensino, professores e alunos, focadas no aprendizado colaborativo.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://edu.google.com/workspace-for-education/editions/overview/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: #F4B400; color: #F4B400;">Saiba Mais</button></a>
+                                        <a href="https://edu.google.com/workspace-for-education/editions/overview/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
                                     </div>
                                 </div>
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #0F9D58;" data-fade data-delay="300">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="300">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/07214a85-b21d-4f78-92f3-4791ccac0691.png" alt="Google Cloud Platform(GCP)" class="h-16 w-auto" />
@@ -163,7 +163,7 @@
                                         <p class="text-sm text-muted-foreground text-center">Infraestrutura de nuvem escalável, segura e confiável para o seu negócio, com soluções de IA e análise de dados.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://cloud.google.com " target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: #0F9D58; color: #0F9D58;">Saiba Mais</a>
+                                        <a href="https://cloud.google.com " target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +381,7 @@
                                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txt_nome" ValidationGroup="Inscricao" runat="server" Display="Dynamic" ErrorMessage="<span style='color:#f5923e'>Preencha o campo Nome </span><br/>"></asp:RequiredFieldValidator>
 
                                                     <label for="name" class="text-gray-700 font-medium">Nome</label>
-                                                    <asp:TextBox ID="txt_nome" runat="server" placeholder="Seu nome completo" CssClass="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm w-full"></asp:TextBox>
+                                                    <asp:TextBox ID="txt_nome" runat="server" placeholder="Seu nome completo" CssClass="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm w-full text-black"></asp:TextBox>
 
                                                 </div>
 

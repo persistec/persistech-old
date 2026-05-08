@@ -2,20 +2,18 @@
 
 
 body {
-	/*background-color: #2a2824; */
-	background-image:url(../images/bg.jpg);
-	background-position:0px -1px;
-	background-repeat:repeat-x;
-	color: #999;
+	background-color: #151515;
+	/* background-image:url(../images/bg.jpg); */
+	color: #ccc;
 }
 
 .style-color-element {
 	display: none !important;
-	color: #ebd493;
+	color: #d4af37;
 }
 
 .blog-date:hover .month {
-	border-color: #ebd493;
+	border-color: #d4af37;
 }
 
 
@@ -33,7 +31,7 @@ body {
 }
 
 ::selection {
-	background-color: #ffd200;
+	background-color: #d4af37;
 	color: #fff;
 }
 
@@ -1928,4 +1926,88 @@ body a, a:active, a:hover, a:visited{
 }
 
 .botoes_header a:hover {opacity:1
+}
+
+/* === GOLD VISUAL SYSTEM OVERRIDES === */
+:root {
+	--gold-dark: #6f4d12;
+	--gold-bronze: #b0771e;
+	--gold-core: #d4af37;
+	--gold-light: #c9a227;
+	--gold-champagne: #e0c56a;
+	--gold-veil: rgba(212, 175, 55, 0.18);
+	--gold-line: rgba(212, 175, 55, 0.34);
+	--gold-text: #d4af37;
+	--gold-gradient: linear-gradient(135deg, #c4982c 0%, #d4af37 55%, #b88921 100%);
+	--gold-gradient-soft: #d4af37;
+}
+
+body {
+	background: #151515;
+}
+
+.style-color-element,
+h1,
+h3,
+h5,
+h2 a,
+.footer-menu span,
+#nav-bar li,
+#nav-bar li a,
+.newsletter_button:hover,
+.nav li.current a,
+#nav-header-container .nav li.current a,
+.blog-date:hover .month {
+	color: var(--gold-text);
+}
+
+h1,
+h3,
+h5,
+h2 a,
+.footer-menu span {
+	background: var(--gold-gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow: 0 0 24px rgba(212, 175, 55, 0.16);
+}
+
+::selection {
+	background: var(--gold-core);
+	color: #111;
+}
+
+.menu-selector,
+.nivo-caption p > *,
+#menu-bg,
+#menu-parent-child {
+	background: #181511;
+}
+
+.footer-bar,
+.footer-menu {
+	background: #0f0f0f;
+	border-top-color: var(--gold-line);
+}
+
+#nav-bar li a:hover,
+.nav li a:hover {
+	color: var(--gold-champagne);
+	text-shadow: 0 0 18px rgba(212, 175, 55, 0.34);
+}
+
+hr,
+.line-sp,
+.heading::after,
+.lines::before,
+.lines::after,
+.widget,
+.blog-post-details,
+.posted-by,
+.responses,
+.about-project,
+.footer-bar {
+	border-color: var(--gold-line);
+	background-color: var(--gold-line);
 }

@@ -1,11 +1,16 @@
-/* -------- Footer Persistec (preto + dourado #ffe066) -------- */
-
-/* fundo preto sólido conforme identidade visual */
-footer {
-  background: #151515 !important; 
+/* Footer Persistec: black base with layered gold. */
+:root {
+  --footer-gold-deep: #6f4d12;
+  --footer-gold-core: #d4af37;
+  --footer-gold-light: #c9a227;
+  --footer-gold-champagne: #e0c56a;
+  --footer-gold-metal: linear-gradient(135deg, #c4982c 0%, #d4af37 55%, #b88921 100%);
 }
 
-/* texto padrão em dourado (#ffe066) */
+footer {
+  background: #151515 !important;
+}
+
 footer,
 footer p,
 footer li,
@@ -14,49 +19,48 @@ footer .text-gray-400,
 footer .text-white,
 footer .text-gray-500,
 footer .text-gray-700 {
-  color: #ffe066 !important; 
+  color: var(--footer-gold-light) !important;
 }
 
-/* títulos um pouco mais fortes */
 footer h3,
 footer .font-bold {
-  color: #ffe066 !important;
+  background: var(--footer-gold-metal);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
   letter-spacing: 0.02em;
 }
 
-/* linhas/divisores em dourado translúcido */
 footer hr,
 footer [data-orientation="horizontal"],
 footer .bg-gray-700 {
-  background-color: rgba(255, 224, 102, 0.25) !important;
+  background: rgba(212, 175, 55, 0.28) !important;
 }
 
-/* links: dourado por padrão, branco no hover para contraste */
 footer a {
-  color: #ffe066 !important;
+  color: var(--footer-gold-light) !important;
   text-decoration: none;
-  transition: color .2s ease;
-}
-footer a:hover {
-  color: #ffffff !important;
+  transition: color .2s ease, text-shadow .2s ease;
 }
 
-/* ícones SVG herdam a cor do texto (dourado) */
+footer a:hover {
+  color: var(--footer-gold-champagne) !important;
+  text-shadow: 0 0 18px rgba(212, 175, 55, 0.34);
+}
+
 footer svg {
-  color: #ffe066 !important;
+  color: var(--footer-gold-light) !important;
   fill: currentColor !important;
 }
 
-/* copy em dourado */
 footer p.text-sm,
 footer p.text-gray-400 {
-  color: #ffe066 !important;
+  color: var(--footer-gold-light) !important;
 }
 
-/* remove qualquer “azulado” residual vindo de utilitários */
 footer .bg-gray-900,
 footer .text-white,
 footer .text-gray-400 {
   background: transparent !important;
-  color: #ffe066 !important;
+  color: var(--footer-gold-light) !important;
 }

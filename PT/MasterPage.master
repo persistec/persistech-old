@@ -57,7 +57,7 @@
             </div>
             <!--end one-fourth-->
             <div class="block welcome-text" style="width: 420px">
-                <div style="float: right; font-size: 12px; line-height:13px;  padding-left: 0px; color: #ebd493">
+                <div style="float: right; font-size: 12px; line-height:13px;  padding-left: 0px; color: #ffe066">
                     <blockquote>
                         <%= Resources.LocalizedText.Home_boasVindas%>
                         
@@ -105,17 +105,17 @@
                     <div class="nivoSlider">
 <%-- <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
                             src="../images/slider/natal-2015.jpg" alt="" title="#slide-NATAL-caption" />--%>
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/clientes.jpg" alt="" title="#slide-00-caption" />
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/webdesign.jpg" alt="" title="#slide-05-caption" />
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/kaspersky.jpg" alt="" title="#slide-01-caption" />
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/hand.jpg" alt="" title="#slide-02-caption" />
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/redes.jpg" alt="" title="#slide-03-caption" />
-                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#daa628"
+                     <img data-nav_color="#0f0f0f" data-slide_bg_color="#000000" data-nav_selector_color="#ffe066"
                             src="../images/slider/servicos.jpg" alt="" title="#slide-04-caption" />
                     </div>
                 </div>
@@ -123,48 +123,48 @@
                     
                 </div>
                   <div id="slide-00-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #74bce6;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                        <%= Resources.LocalizedText.Banner_Solucoes_Excelencia%></h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                         <%= Resources.LocalizedText.Banner_Solucoes_Excelencia_Txt%>
                     </p>
                 </div>
                 <div id="slide-01-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #05856e;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                         <%= Resources.LocalizedText.Banner_ProtejaNegocio%></h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                       <%= Resources.LocalizedText.Banner_ProtejaNegocio_Txt%>
                     </p>
                 </div>
                 <div id="slide-02-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #e56363;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                          <%= Resources.LocalizedText.Banner_Apoio%></h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                       <%= Resources.LocalizedText.Banner_Apoio_Txt%>
 
                     </p>
                 </div>
                 <div id="slide-03-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #48b385;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                        <%= Resources.LocalizedText.Banner_Equipa%></h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                        <%= Resources.LocalizedText.Banner_Equipa_Txt%>
 
                     </p>
                 </div>
                   <div id="slide-04-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #027cd0;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                        <%= Resources.LocalizedText.Banner_Hardware%> </h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                         <%= Resources.LocalizedText.Banner_Hardware_Txt%> 
 
                     </p>
                 </div>
                 
                 <div id="slide-05-caption" class="nivo-html-caption">
-                    <h1 style="background-color: #69020c;">
+                    <h1 style="background-color: #000; color: #ffe066;">
                        <%= Resources.LocalizedText.Banner_Solucoes_NewMedia%></h1>
-                    <p style="background-color: #222;">
+                    <p style="background-color: #000; color: #fff;">
                        <%= Resources.LocalizedText.Banner_Solucoes_NewMedia_Txt%>
 
                     </p>
