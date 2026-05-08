@@ -441,7 +441,7 @@
                 </main>
 
                 <!-- FOOTER -->
-                <footer class="bg-gray-900 text-white py-12" data-fade>
+                <footer class="bg-gray-900 text-gray-400 py-12" data-fade>
                     <div class="container mx-auto px-4">
                         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                             <div>
@@ -451,32 +451,32 @@
                             </div>
 
                             <div>
-                                <h3 class="text-xl font-bold mb-4">Soluções</h3>
+                                <h3 class="text-xl font-bold mb-4 text-gray-400">Soluções</h3>
                                 <ul class="space-y-2 text-gray-400">
-                                    <li><a href="https://www.google.pt/intl/pt-PT/chrome/" class="hover:text-white transition-colors">Google Chrome</a></li>
-                                    <li><a href="https://workspace.google.com" class="hover:text-white transition-colors">Google Workspace</a></li>
-                                    <li><a href="https://cloud.google.com" class="hover:text-white transition-colors">Google Cloud Platform</a></li>
-                                    <li><a href="https://edu.google.com/workspace-for-education/editions/overview/" class="hover:text-white transition-colors">Google Workspace for Education</a></li>
+                                    <li><a href="https://www.google.pt/intl/pt-PT/chrome/" class="transition-colors">Google Chrome</a></li>
+                                    <li><a href="https://workspace.google.com" class="transition-colors">Google Workspace</a></li>
+                                    <li><a href="https://cloud.google.com" class="transition-colors">Google Cloud Platform</a></li>
+                                    <li><a href="https://edu.google.com/workspace-for-education/editions/overview/" class="transition-colors">Google Workspace for Education</a></li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h3 class="text-xl font-bold mb-4">Empresa</h3>
+                                <h3 class="text-xl font-bold mb-4 text-gray-400">Empresa</h3>
                                 <ul class="space-y-2 text-gray-400">
-                                    <li><a href="https://persistec.com/PT/QuemSomos.aspx?m=1" class="hover:text-white transition-colors">Quem Somos</a></li>
-                                    <li><a href="https://persistec.com/PT/Servicos.aspx?m=4" class="hover:text-white transition-colors">Serviços</a></li>
-                                    <li><a href="https://persistec.com/PT/Newmedia.aspx?m=5" class="hover:text-white transition-colors">NewMedia</a></li>
-                                    <li><a href="https://persistec.com/PT/Clientes.aspx?m=6" class="hover:text-white transition-colors">Clientes</a></li>
-                                    <li><a href="https://persistec.com/PT/Solucoes.aspx?m=3" class="hover:text-white transition-colors">Soluções</a></li>
+                                    <li><a href="/PT/QuemSomos.aspx?m=1">Quem Somos</a></li>
+                                    <li><a href="/PT/Servicos.aspx?m=4">Serviços</a></li>
+                                    <li><a href="/PT/Newmedia.aspx?m=5">NewMedia</a></li>
+                                    <li><a href="/PT/Clientes.aspx?m=6">Clientes</a></li>
+                                    <li><a href="/PT/Solucoes.aspx?m=3">Soluções</a></li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h3 class="text-xl font-bold mb-4">Contato</h3>
+                                <h3 class="text-xl font-bold mb-4 text-gray-400">Contato</h3>
                                 <ul class="space-y-2 text-gray-400">
-                                    <li><a href="tel:+244938872244" class="hover:text-white transition-colors">+244 938872244</a></li>
-                                    <li><a href="tel:+244954893153" class="hover:text-white transition-colors">+244 954893153</a></li>
-                                    <li><a href="mailto:vendas@persistec.com" class="hover:text-white transition-colors">vendas@persistec.com</a></li>
+                                    <li><a href="tel:+244938872244" class="transition-colors">+244 938872244</a></li>
+                                    <li><a href="tel:+244954893153" class="transition-colors">+244 954893153</a></li>
+                                    <li><a href="mailto:vendas@persistec.com" class="transition-colors">vendas@persistec.com</a></li>
                                     <li>
                                         <p>Luanda - Angola</p>
                                     </li>
@@ -490,21 +490,21 @@
                             <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Persistech. Todos os direitos reservados.</p>
                             <div class="flex space-x-4">
                                 <a href="https://www.facebook.com/Persistech/?locale=pt_BR" target="_blank" rel="noopener noreferrer"
-                                    class="hover:text-white transition-colors" aria-label="Facebook">
+                                    class="transition-colors" aria-label="Facebook">
                                     <svg class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
                                         <path d="M22.675 0h-21.35C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0z" />
                                     </svg>
                                 </a>
 
                                 <a href="https://www.instagram.com/persistech.lda" target="_blank" rel="noopener noreferrer"
-                                    class="hover:text-white transition-colors" aria-label="Instagram">
+                                    class="transition-colors" aria-label="Instagram">
                                     <svg class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
                                         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                                     </svg>
                                 </a>
 
                                 <a href="https://www.linkedin.com/company/persistech-lda" target="_blank" rel="noopener noreferrer"
-                                    class="hover:text-white transition-colors" aria-label="LinkedIn">
+                                    class="transition-colors" aria-label="LinkedIn">
                                     <svg class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
                                         <path d="M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zm-11.75 20H4.25V9h3v11zm-1.5-12.268c-.966 0-1.75-.785-1.75-1.75s.784-1.75 1.75-1.75 1.75.785 1.75 1.75-.784 1.75-1.75 1.75zM20 20h-3v-5.5c0-1.378-.024-3.152-1.918-3.152-1.918 0-2.212 1.5-2.212 3.051V20h-3V9h2.877v1.507h.041c.401-.76 1.379-1.56 2.838-1.56 3.037 0 3.374 2.001 3.374 4.604V20z" />
                                     </svg>

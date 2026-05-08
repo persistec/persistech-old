@@ -45,7 +45,7 @@ footer a {
 
 footer a:hover {
   color: var(--footer-gold-champagne) !important;
-  text-shadow: 0 0 18px rgba(212, 175, 55, 0.34);
+  text-decoration: underline;
 }
 
 footer svg {
