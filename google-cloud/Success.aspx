@@ -279,7 +279,7 @@
 
                 <footer>
                     <div class="footer-inner">
-                        <p>&copy; 2025 Persistech. Todos os direitos reservados.</p>
+                        <p>&copy; 2026 Persistech. Todos os direitos reservados.</p>
                         <div class="footer-links">
                             <a href="https://www.facebook.com/Persistech/" target="_blank">Facebook</a>
                             <a href="https://www.instagram.com/persistech.lda" target="_blank">Instagram</a>
