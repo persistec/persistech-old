@@ -43,11 +43,11 @@
                             <a href="#" class="text-white hover:text-persistec-gold transition-colors">Início</a>
                             <a href="#solutions" class="text-white hover:text-persistec-gold transition-colors">Soluções</a>
                             <a href="#about" class="text-white hover:text-persistec-gold transition-colors">Sobre</a>
-                            <a href="#contact" class="text-white hover:text-persistec-gold transition-colors">Contato</a>
+                            <a href="#contact" class="text-white hover:text-persistec-gold transition-colors">Contacto</a>
                         </nav>
 
                         <a href="#contact" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium hover:ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 px-4 py-2 bg-persistec-gold hover:bg-persistec-light-gold text-black" target="_blank" rel="noopener noreferrer">
-                        Fale Conosco
+                        Fale Connosco
                         </a>
                     </div>
                 </header>
@@ -132,7 +132,7 @@
                                         <p class="text-sm text-muted-foreground text-center">Ferramenta completa de comunicação e colaboração para sua empresa. E-mail, drive, documentos, planilhas e muito mais.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://workspace.google.com" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
+                                        <a href="https://workspace.google.com" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
                                     </div>
                                 </div>
 
@@ -148,7 +148,7 @@
                                         <p class="text-sm text-muted-foreground text-center">Soluções feitas para instituições de ensino, professores e alunos, focadas no aprendizado colaborativo.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://edu.google.com/workspace-for-education/editions/overview/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
+                                        <a href="https://edu.google.com/workspace-for-education/editions/overview/" target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</button></a>
                                     </div>
                                 </div>
 
@@ -163,7 +163,7 @@
                                         <p class="text-sm text-muted-foreground text-center">Infraestrutura de nuvem escalável, segura e confiável para o seu negócio, com soluções de IA e análise de dados.</p>
                                     </div>
                                     <div class="items-center p-6 pt-0 flex justify-center">
-                                        <a href="https://cloud.google.com " target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duração-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</a>
+                                        <a href="https://cloud.google.com " target="_blank" class="hover:text-white transition-colors inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 transition-colors duration-300" style="border-color: var(--persistec-gold-core); color: var(--persistec-gold-deep);">Saiba Mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@
                                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-green" data-fade data-delay="300">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Experiência Comprovada</h3>
-                                            <p class="text-gray-600">Varios Projectos implementados com sucesso, em empresas de diversos portes e segmentos.</p>
+                                            <p class="text-gray-600">Vários Projetos implementados com sucesso, em empresas de diversos portes e segmentos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +259,7 @@
                                             </svg>
                                         </div>
                                         <p class="text-gray-600 mb-6">A mudança para o Google Cloud Platform trouxe mais segurança e escalabilidade para nossos sistemas. O suporte da Persistech foi excelente durante todo o processo.</p>
-                                        <div class="flex itens-center">
+                                        <div class="flex items-center">
                                             <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
                                             <div>
                                                 <h4 class="font-semibold">Walter da Paixão, CEO</h4>
@@ -301,13 +301,13 @@
                         <div class="container mx-auto px-4 relative z-10">
                             <div class="text-center mb-12">
                                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Reinvente o seu negócio hoje</h2>
-                                <p class="text-xl max-w-2xl mx-auto">Entre em contato com nossos consultores e descubra como as soluções Google podem transformar seu negócio</p>
+                                <p class="text-xl max-w-2xl mx-auto">Entre em contacto com nossos consultores e descubra como as soluções Google podem transformar seu negócio</p>
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                                 <div class="bg-white/10 p-8 rounded-lg backdrop-blur-sm border border-white/10 shadow-xl relative overflow-hidden" data-fade data-delay="0">
                                     <div class="absolute -right-20 -bottom-20 w-40 h-40 rounded-full bg-persistec-gold/10 blur-xl"></div>
-                                    <h3 class="text-2xl font-bold mb-6 relative">Informações de Contato</h3>
+                                    <h3 class="text-2xl font-bold mb-6 relative">Informações de Contacto</h3>
 
                                     <div class="space-y-6 relative z-10">
                                         <div class="flex items-start">
@@ -340,7 +340,7 @@
                                             <div>
                                                 <h4 class="font-medium">Endereço</h4>
                                                 <p>Bairro do Cruzeiro</p>
-                                                <p>Municipío das Ingombotas</p>
+                                                <p>Município das Ingombotas</p>
                                                 <p>Luanda - Angola</p>
                                             </div>
                                         </div>
@@ -389,7 +389,7 @@
                                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txt_email" ValidationGroup="Inscricao" runat="server" Display="Dynamic" ErrorMessage="<span style='color:#f5923e'>Preencha o campo Email </span><br/>"></asp:RequiredFieldValidator>
 
                                                     <label for="email" class="text-gray-700 font-medium">Email</label>
-                                                    <asp:TextBox ID="txt_email" runat="server" placeholder="Seu email profissinal" CssClass="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm w-full"></asp:TextBox>
+                                                    <asp:TextBox ID="txt_email" runat="server" placeholder="Seu email profissional" CssClass="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:text-sm w-full"></asp:TextBox>
                                                 </div>
 
                                                 <div class="space-y-2">
@@ -472,7 +472,7 @@
                             </div>
 
                             <div>
-                                <h3 class="text-xl font-bold mb-4 text-gray-400">Contato</h3>
+                                <h3 class="text-xl font-bold mb-4 text-gray-400">Contacto</h3>
                                 <ul class="space-y-2 text-gray-400">
                                     <li><a href="tel:+244938872244" class="transition-colors">+244 938872244</a></li>
                                     <li><a href="tel:+244954893153" class="transition-colors">+244 954893153</a></li>
@@ -487,7 +487,7 @@
                         <div data-orientation="horizontal" role="none" class="shrink-0 h-[1px] w-full bg-gray-700 my-6"></div>
 
                         <div class="flex flex-col md:flex-row justify-between items-center">
-                            <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Persistech. Todos os direitos reservados.</p>
+                            <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2026 Persistech. Todos os direitos reservados.</p>
                             <div class="flex space-x-4">
                                 <a href="https://www.facebook.com/Persistech/?locale=pt_BR" target="_blank" rel="noopener noreferrer"
                                     class="transition-colors" aria-label="Facebook">

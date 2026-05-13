@@ -23,7 +23,7 @@ Partial Class _Default
 
         If Page.IsValid Then
 
-            Dim mensagem_erro As String = "Ocorreu um erro ao enviar o seu formulário. <br/>Por favor preencha correctamente todos os campos e tente novamente."
+            Dim mensagem_erro As String = "Ocorreu um erro ao enviar o seu formulário. <br/>Por favor preencha corretamente todos os campos e tente novamente."
             Dim envio_aprovado As Boolean = True
 
 

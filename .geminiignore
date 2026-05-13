@@ -1,0 +1,16 @@
+.vs/
+.git/
+uif/
+*.zip
+*.docx
+*.pdf
+images/
+assets/
+App_Data/
+bin/
+obj/
+*.eps
+*.jpg
+*.png
+*.gif
+*.ico
