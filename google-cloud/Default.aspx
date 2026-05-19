@@ -4,6 +4,14 @@
 
 <html xmlns="https://www.w3.org/1999/xhtml">
 <head runat="server">
+    <!-- Google Tag Manager: Novo -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NS7B4XXM');</script>
+    <!-- End Google Tag Manager -->
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11559405519">
 </script>
@@ -24,6 +32,11 @@
 
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NS7B4XXM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="root">
@@ -105,7 +118,7 @@
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossas Soluções Google</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="0">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/6dc61029-4ebd-4bca-8fe0-620950da65e7.png" alt="Google Chrome" class="h-16 w-auto" />
@@ -121,7 +134,7 @@
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="100">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #DB4437;" data-fade data-delay="100">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/cefa7a0a-9c61-4b02-8b93-43aac9778ccf.png" alt="Google Workspace" class="h-16 w-auto" />
@@ -137,7 +150,7 @@
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="200">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #0F9D58;" data-fade data-delay="200">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/d4951300-2e4a-4e69-997b-ddaaf0b8f499.png" alt="Google Workspace for Education" class="h-16 w-auto" />
@@ -152,7 +165,7 @@
                                     </div>
                                 </div>
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: var(--persistec-gold-core);" data-fade data-delay="300">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #F4B400;" data-fade data-delay="300">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/07214a85-b21d-4f78-92f3-4791ccac0691.png" alt="Google Cloud Platform(GCP)" class="h-16 w-auto" />
@@ -418,8 +431,8 @@
                                                     
                                                     <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
                                                         <ProgressTemplate>
-                                                            <div class="flex items-center text-persistec-gold font-medium">
-                                                                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-persistec-gold" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                                            <div class="flex items-center text-black font-medium">
+                                                                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-black" xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                                                   <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                                                                   <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                                                 </svg>
