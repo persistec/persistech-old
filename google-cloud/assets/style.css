@@ -3736,27 +3736,27 @@ a.bg-persistec-gold {
 
 .bg-gray-50,
 section.bg-gray-50 {
-    background: #f5e9cc !important;
+    background: #ffffff !important;
 }
 
 .bg-white,
 section.bg-white,
 .bg-card {
-    background: #f5e9cc !important;
+    background: #ffffff !important;
 }
 
 #solutions.bg-white {
-    background: #f5e9cc !important;
+    background: #ffffff !important;
 }
 
 #solutions .product-card,
 #solutions .bg-card {
-    background: #f5e9cc !important;
+    background: #ffffff !important;
 }
 
 #about.bg-white,
 #about .bg-card {
-    background: #f5e9cc !important;
+    background: #ffffff !important;
 }
 
 .bg-white\/5,
@@ -3792,41 +3792,13 @@ section.bg-white,
     }
 
     .product-card[style],
-    [style*="#4285F4"],
-    [style*="#DB4437"],
-    [style*="#F4B400"],
-    [style*="#0F9D58"] {
-        border-color: var(--persistec-gold-champagne) !important;
-        border-top-color: var(--persistec-gold-champagne) !important;
-        color: var(--persistec-gold-deep) !important;
+    [style*="border-top-color"] {
+        /* Google brand colors preserved via inline style */
     }
 
-a[style*="#4285F4"],
-a[style*="#DB4437"],
-a[style*="#F4B400"],
-a[style*="#0F9D58"] {
-    border-color: var(--persistec-gold-champagne) !important;
-    color: #8a6318 !important;
-    background: #f5e9cc !important;
-    transition: all .3s ease !important;
-}
+/* Google brand anchor colors — preserved as-is */
 
-    a[style*="#4285F4"]:hover,
-    a[style*="#DB4437"]:hover,
-    a[style*="#F4B400"]:hover,
-    a[style*="#0F9D58"]:hover {
-        color: #11100d !important;
-        background: var(--persistec-gold-metal) !important;
-        box-shadow: 0 4px 14px rgba(226, 192, 74, .35) !important;
-    }
-
-.border-persistec-blue,
-.border-persistec-red,
-.border-persistec-yellow,
-.border-persistec-green {
-    border-color: transparent !important;
-    border-image: linear-gradient(to bottom, transparent 0%, #e2c04a 30%, #e2c04a 70%, transparent 100%) 1 !important;
-}
+/* Google brand border colors — preserved via inline styles on cards */
 
 .bg-persistec-blue,
 .bg-persistec-red {
@@ -3839,7 +3811,7 @@ a[style*="#0F9D58"] {
 .text-gray-600,
 .text-gray-700,
 .text-muted-foreground {
-    color: #5f5340 !important;
+    color: #333333 !important;
 }
 
 .persistec-gradient .text-gray-300,
@@ -3854,7 +3826,7 @@ a[style*="#0F9D58"] {
 #solutions .product-card p,
 #about p,
 .py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) p {
-    color: #2f2618 !important;
+    color: #111111 !important;
 }
 
 #about .text-gray-500,
@@ -3863,7 +3835,7 @@ a[style*="#0F9D58"] {
 .py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-500,
 .py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-600,
 .py-20:not(.persistec-gradient):not(.hero-section):not(#solutions):not(#about):not(#contact) .text-gray-700 {
-    color: #473a26 !important;
+    color: #333333 !important;
 }
 
 footer,
@@ -3900,18 +3872,33 @@ input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type
 textarea,
 select {
     background: rgba(255, 255, 255, .06) !important;
-    border-color: rgba(226, 192, 74, .40) !important;
+    border-color: #000000 !important;
     transition: border-color .2s, box-shadow .2s !important;
 }
 
     input::placeholder,
     textarea::placeholder {
-        color: rgba(226, 192, 74, .45) !important;
+        color: rgba(0, 0, 0, 0.45) !important;
     }
 
 /* Separador visual nas secções de clientes */
 .py-20:not(.persistec-gradient):not(#solutions):not(#about):not(#contact) {
-    background: #f5e9cc;
+    background: #ffffff;
+}
+
+/* Form card inside contact section — white background, black text */
+#contact .rounded-lg.border.text-card-foreground.bg-white {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
+
+#contact .rounded-lg.border.text-card-foreground.bg-white label,
+#contact .rounded-lg.border.text-card-foreground.bg-white h3,
+#contact .rounded-lg.border.text-card-foreground.bg-white p,
+#contact .rounded-lg.border.text-card-foreground.bg-white .text-gray-600,
+#contact .rounded-lg.border.text-card-foreground.bg-white .text-gray-700,
+#contact .rounded-lg.border.text-card-foreground.bg-white .text-muted-foreground {
+    color: #111111 !important;
 }
 
 /* Header — linha dourada inferior subtil */
