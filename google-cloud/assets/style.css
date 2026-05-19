@@ -3945,3 +3945,8 @@ footer a:hover,
 footer a:active {
     color: rgba(255, 248, 226, .84) !important;
 }
+
+.bg-persistec-gold,
+a.bg-persistec-gold {
+    transition: background 0.3s ease-in-out !important;
+}

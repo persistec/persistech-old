@@ -22,18 +22,18 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll('.bg-persistec-gold, .hover\\:bg-persistec-light-gold').forEach(el => {
         el.addEventListener('mousemove', (e) => {
             const rect = el.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            const cx = rect.width / 2;
-            const cy = rect.height / 2;
-            const angle = Math.round(Math.atan2(cy - y, x - cx) * (180 / Math.PI)) + 90;
+            const x = Math.round(((e.clientX - rect.left) / rect.width) * 100);
+            const y = Math.round(((e.clientY - rect.top) / rect.height) * 100);
             el.style.setProperty('background',
-                `linear-gradient(${angle}deg, #b08830 0%, #e0b83a 28%, #fef4a0 52%, #d4a832 74%, #9a7020 100%)`,
+                `radial-gradient(ellipse at ${x}% ${y}%, #fef4a0 0%, #e0b83a 30%, #b08830 70%, #9a7020 100%)`,
                 'important'
             );
         });
         el.addEventListener('mouseleave', () => {
-            el.style.removeProperty('background');
+            el.style.setProperty('background',
+                'linear-gradient(to top, #a07830 0%, #d4a832 35%, #f0d878 65%, #b8901e 100%)',
+                'important'
+            );
         });
     });
 });
