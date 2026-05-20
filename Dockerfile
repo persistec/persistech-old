@@ -1,4 +1,4 @@
-FROM mono:latest
+FROM mono:6.12.0-bullseye
 
 # Install Nginx, FastCGI Mono server, and Supervisor
 RUN apt-get update && apt-get install -y \
