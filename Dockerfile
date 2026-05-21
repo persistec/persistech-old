@@ -1,4 +1,10 @@
-FROM mono:6.12.0-bullseye
+FROM mono:6.12.0
+
+# Fix for Debian Buster 404 errors (repositories moved to archive)
+RUN sed -i 's/deb.debian.org/archive.debian.org/g' /etc/apt/sources.list && \
+    sed -i 's/security.debian.org\/debian-security/archive.debian.org\/debian-security/g' /etc/apt/sources.list && \
+    sed -i '/stretch-updates/d' /etc/apt/sources.list && \
+    sed -i '/buster-updates/d' /etc/apt/sources.list
 
 # Install Nginx, FastCGI Mono server, and Supervisor
 RUN apt-get update && apt-get install -y \

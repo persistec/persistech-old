@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="GoogleCloud_Default" %>
 
 <!DOCTYPE html>
 
@@ -115,7 +115,7 @@
                     <!-- SOLUTIONS -->
                     <section id="solutions" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
-                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossas Soluções Google</h2>
+                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossas Soluções Google</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                                 <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
@@ -187,7 +187,7 @@
                     <section id="about" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
                             <div class="text-center mb-16">
-                                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-persistec-gold">Parceira Oficial da Google em Angola</h2>
+                                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">Parceira Oficial da Google em Angola</h2>
                                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">Somos uma empresa especializada em soluções Google, com mais de 10 anos de experiência e certificações para implementar e dar suporte aos produtos Google.</p>
                             </div>
 
@@ -211,7 +211,7 @@
                                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-blue" data-fade data-delay="0">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Melhor Preço</h3>
-                                            <p class="text-gray-600">Como parceira do Google, oferecemos os melhores preços e condições para aquisição de produtos Google em Angola.</p>
+                                            <p class="text-gray-600">Como parceira do Google, oferecemos planos competitivos, com pagamento em Kwanzas.</p>
                                         </div>
                                     </div>
 
@@ -241,21 +241,18 @@
                     </section>
 
                     <!-- CLIENTES -->
-                    <section class="py-20 bg-white card-texture" data-fade>
+                    <section id="clients" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
-                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossos Clientes</h2>
+                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossos Clientes</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                                 <div class="rounded-lg border text-card-foreground bg-white/5 backdrop-blur-sm shadow-lg" data-fade data-delay="0">
                                     <div class="p-6 pt-6">
-                                        <div class="mb-4">
-                                            <svg class="w-12 h-12 text-persistec-gold" fill="currentColor" viewbox="0 0 32 32" xmlns="https://www.w3.org/2000/svg">
-                                                <path d="M10 8v6a6 6 0 01-6 6H8a6 6 0 016 6v-6a6 6 0 016-6h-4a6 6 0 01-6-6zm16 0v6a6 6 0 01-6 6h4a6 6 0 016 6v-6a6 6 0 016-6h-4a6 6 0 01-6-6z"></path>
-                                            </svg>
-                                        </div>
                                         <p class="text-gray-300 mb-6">I am pleased to share that the implementation of Google Workspace has been highly beneficial for our organization. The enhanced collaboration, increased productivity, and improved communication have transformed our work processes.</p>
                                         <div class="flex items-center">
-                                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                                            <div class="client-logo-frame mr-4">
+                                                <img src="assets/img/ddm.png" alt="DDM Company" />
+                                            </div>
                                             <div>
                                                 <h4 class="font-semibold">Jaime Fiqueirinha</h4>
                                                 <p class="text-gray-500 text-sm">CFO of DDM COMPANY</p>
@@ -266,14 +263,11 @@
 
                                 <div class="rounded-lg border text-card-foreground bg-white shadow-lg" data-fade data-delay="100">
                                     <div class="p-6 pt-6">
-                                        <div class="mb-4">
-                                            <svg class="w-12 h-12 text-persistec-orange" fill="currentColor" viewbox="0 0 32 32" xmlns="https://www.w3.org/2000/svg">
-                                                <path d="M10 8v6a6 6 0 01-6 6H8a6 6 0 016 6v-6a6 6 0 016-6h-4a6 6 0 01-6-6z"></path>
-                                            </svg>
-                                        </div>
                                         <p class="text-gray-600 mb-6">A mudança para o Google Cloud Platform trouxe mais segurança e escalabilidade para nossos sistemas. O suporte da Persistech foi excelente durante todo o processo.</p>
                                         <div class="flex items-center">
-                                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                                            <div class="client-logo-frame mr-4">
+                                                <img src="assets/img/interscorp.png" alt="Interscorp" />
+                                            </div>
                                             <div>
                                                 <h4 class="font-semibold">Walter da Paixão, CEO</h4>
                                                 <p class="text-gray-500 text-sm">CEO, Empresa,Interscorp</p>
@@ -284,14 +278,11 @@
 
                                 <div class="rounded-lg border text-card-foreground bg-white shadow-lg" data-fade data-delay="200">
                                     <div class="p-6 pt-6">
-                                        <div class="mb-4">
-                                            <svg class="w-12 h-12 text-persistec-orange" fill="currentColor" viewbox="0 0 32 32" xmlns="https://www.w3.org/2000/svg">
-                                                <path d="M10 8v6a6 6 0 01-6 6H8a6 6 0 016 6v-6a6 6 0 016-6h-4a6 6 0 01-6-6z"></path>
-                                            </svg>
-                                        </div>
                                         <p class="text-gray-600 mb-6">A migração do Windows File Server para o Google Shared Drive foi um sucesso. A Persistech, como parceira especializada da Google, garantiu uma transição segura, organizada e alinhada às necessidades da Southco.</p>
                                         <div class="flex items-center">
-                                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
+                                            <div class="client-logo-frame mr-4">
+                                                <img src="assets/img/southco.png" alt="Southco" />
+                                            </div>
                                             <div>
                                                 <h4 class="font-semibold">Alexandre Chivela</h4>
                                                 <p class="text-gray-500 text-sm">CEO, Southco</p>
@@ -318,7 +309,7 @@
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                                <div class="bg-white/10 p-8 rounded-lg backdrop-blur-sm border border-white/10 shadow-xl relative overflow-hidden" data-fade data-delay="0">
+                                <div class="bg-white/7 p-8 rounded-lg backdrop-blur-sm border border-white/10 shadow-xl relative overflow-hidden" data-fade data-delay="0">
                                     <div class="absolute -right-20 -bottom-20 w-40 h-40 rounded-full bg-persistec-gold/10 blur-xl"></div>
                                     <h3 class="text-2xl font-bold mb-6 relative">Informações de Contacto</h3>
 
@@ -458,7 +449,7 @@
                     <div class="container mx-auto px-4">
                         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                             <div>
-                                <img src="assets/img/Logotipo-Expandimos-Limites.png" alt="Persistech Logo" class="h-12 md:h-14" /><br>
+                                <img src="assets/img/Logotipo-Expandimos-Limites-br.png" alt="Persistech Logo" class="h-12 md:h-14" /><br>
 
                                 <p class="text-gray-400 mb-4">Parceira Oficial da Google com mais de 10 anos de experiência na implementação de soluções Google para empresas.</p>
                             </div>

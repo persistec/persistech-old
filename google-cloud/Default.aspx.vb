@@ -9,7 +9,7 @@ Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports Microsoft.SqlServer
 Imports Microsoft.VisualBasic.ApplicationServices
-Partial Class _Default
+Partial Class GoogleCloud_Default
     Inherits System.Web.UI.Page
 
     Private Sub bt_enviar_Click(sender As Object, e As EventArgs) Handles bt_enviar.Click
