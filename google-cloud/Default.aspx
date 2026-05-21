@@ -309,7 +309,7 @@
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                                <div class="bg-white/10 p-8 rounded-lg backdrop-blur-sm border border-white/10 shadow-xl relative overflow-hidden" data-fade data-delay="0">
+                                <div class="bg-white/7 p-8 rounded-lg backdrop-blur-sm border border-white/10 shadow-xl relative overflow-hidden" data-fade data-delay="0">
                                     <div class="absolute -right-20 -bottom-20 w-40 h-40 rounded-full bg-persistec-gold/10 blur-xl"></div>
                                     <h3 class="text-2xl font-bold mb-6 relative">Informações de Contacto</h3>
 
