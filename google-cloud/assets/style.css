@@ -3820,6 +3820,26 @@ section.bg-white,
     border-left-color: var(--google-card-color) !important;
 }
 
+#clients .client-logo-frame {
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-shrink: 0;
+    height: 64px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px;
+    width: 64px;
+}
+
+#clients .client-logo-frame img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
 .product-card {
     position: relative;
     overflow: hidden;
