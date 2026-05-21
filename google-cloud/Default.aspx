@@ -265,6 +265,9 @@
                                     <div class="p-6 pt-6">
                                         <p class="text-gray-600 mb-6">A mudança para o Google Cloud Platform trouxe mais segurança e escalabilidade para nossos sistemas. O suporte da Persistech foi excelente durante todo o processo.</p>
                                         <div class="flex items-center">
+                                            <div class="client-logo-frame mr-4">
+                                                <img src="assets/img/interscorp.png" alt="Interscorp" />
+                                            </div>
                                             <div>
                                                 <h4 class="font-semibold">Walter da Paixão, CEO</h4>
                                                 <p class="text-gray-500 text-sm">CEO, Empresa,Interscorp</p>
