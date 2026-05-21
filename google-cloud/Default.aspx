@@ -449,7 +449,7 @@
                     <div class="container mx-auto px-4">
                         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                             <div>
-                                <img src="assets/img/Logotipo-Expandimos-Limites.png" alt="Persistech Logo" class="h-12 md:h-14" /><br>
+                                <img src="assets/img/Logotipo-Expandimos-Limites-br.png" alt="Persistech Logo" class="h-12 md:h-14" /><br>
 
                                 <p class="text-gray-400 mb-4">Parceira Oficial da Google com mais de 10 anos de experiência na implementação de soluções Google para empresas.</p>
                             </div>
