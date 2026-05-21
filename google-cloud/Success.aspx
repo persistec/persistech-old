@@ -53,7 +53,7 @@
 
         /* ── Header — alinhado com Default.aspx ── */
         header {
-            background: #151515;
+            background: #000000;
             padding: 1rem 0;
             border-bottom: 1px solid rgba(212, 175, 55, .18);
             box-shadow: 0 1px 24px rgba(0,0,0,.40), 0 1px 0 rgba(212,175,55,.12);
@@ -68,7 +68,11 @@
             align-items: center;
         }
 
-        header img { height: 52px; }
+        header img {
+            height: 56px;
+            max-width: 220px;
+            object-fit: contain;
+        }
 
         header nav a {
             color: rgba(255,255,255,0.80);
@@ -98,7 +102,7 @@
             padding: 2.75rem 3rem !important;
             max-width: 520px !important;
             width: 100% !important;
-            box-shadow: var(--card-shadow) !important;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04) !important;
             border: 1px solid rgba(212, 175, 55, .22) !important;
             border-top: 4px solid transparent !important;
             border-image: linear-gradient(105deg, #7a5018, #f2da6e, #9a6e10) 1 !important;
@@ -132,10 +136,8 @@
             font-family: 'Cormorant Garamond', Georgia, serif !important;
             font-size: 2.2rem !important;
             font-weight: 700 !important;
-            background: var(--gold-metal);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent !important;
+            background: none !important;
+            color: var(--black) !important;
             line-height: 1.15 !important;
             margin: 0 0 0.6rem 0 !important;
             padding: 0 !important;
@@ -200,8 +202,8 @@
 
         /* ── Footer ── */
         footer {
-            background: #111111;
-            color: rgba(255,255,255,0.5);
+            background: #111827;
+            color: rgba(255,255,255,0.72) !important;
             padding: 2rem 0;
             font-size: 0.875rem;
         }
@@ -217,10 +219,26 @@
             justify-content: space-between;
         }
 
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .footer-brand img {
+            height: 52px;
+            max-width: 220px;
+            object-fit: contain;
+        }
+
+        footer p {
+            color: rgba(255,255,255,0.72) !important;
+        }
+
         .footer-links { display: flex; gap: 1.5rem; }
 
         .footer-links a {
-            color: rgba(255,255,255,0.45);
+            color: rgba(255,255,255,0.72) !important;
             text-decoration: none;
             transition: color 0.2s;
         }
@@ -232,6 +250,10 @@
         @media (max-width: 480px) {
             .card { padding: 2rem 1.5rem !important; }
             .card h1 { font-size: 1.8rem !important; }
+            .footer-brand {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -279,7 +301,10 @@
 
                 <footer>
                     <div class="footer-inner">
-                        <p>&copy; 2026 Persistech. Todos os direitos reservados.</p>
+                        <div class="footer-brand">
+                            <img src="assets/img/Logotipo-Expandimos-Limites-br.png" alt="Persistech Logo" />
+                            <p>&copy; 2026 Persistech. Todos os direitos reservados.</p>
+                        </div>
                         <div class="footer-links">
                             <a href="https://www.facebook.com/Persistech/" target="_blank">Facebook</a>
                             <a href="https://www.instagram.com/persistech.lda" target="_blank">Instagram</a>
