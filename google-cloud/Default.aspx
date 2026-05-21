@@ -115,7 +115,7 @@
                     <!-- SOLUTIONS -->
                     <section id="solutions" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
-                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossas Soluções Google</h2>
+                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossas Soluções Google</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                                 <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
@@ -187,7 +187,7 @@
                     <section id="about" class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
                             <div class="text-center mb-16">
-                                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-persistec-gold">Parceira Oficial da Google em Angola</h2>
+                                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-black">Parceira Oficial da Google em Angola</h2>
                                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">Somos uma empresa especializada em soluções Google, com mais de 10 anos de experiência e certificações para implementar e dar suporte aos produtos Google.</p>
                             </div>
 
@@ -211,7 +211,7 @@
                                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-blue" data-fade data-delay="0">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Melhor Preço</h3>
-                                            <p class="text-gray-600">Como parceira do Google, oferecemos os melhores preços e condições para aquisição de produtos Google em Angola.</p>
+                                            <p class="text-gray-600">Como parceira do Google, oferecemos planos competitivos, com pagamento em Kwanzas.</p>
                                         </div>
                                     </div>
 
@@ -243,7 +243,7 @@
                     <!-- CLIENTES -->
                     <section class="py-20 bg-white card-texture" data-fade>
                         <div class="container mx-auto px-4">
-                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-persistec-gold">Nossos Clientes</h2>
+                            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossos Clientes</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                                 <div class="rounded-lg border text-card-foreground bg-white/5 backdrop-blur-sm shadow-lg" data-fade data-delay="0">

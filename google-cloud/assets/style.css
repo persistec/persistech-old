@@ -3754,6 +3754,10 @@ section.bg-white,
     background: #ffffff !important;
 }
 
+#solutions .product-card:before {
+    display: none !important;
+}
+
 #about.bg-white,
 #about .bg-card {
     background: #ffffff !important;
@@ -3770,6 +3774,50 @@ section.bg-white,
 .rounded-lg.border.text-card-foreground.bg-white\/5 {
     border-color: rgba(226, 192, 74, .35) !important;
     box-shadow: 0 4px 16px rgba(49, 34, 8, .08), 0 16px 40px rgba(49, 34, 8, .10), inset 0 1px 0 rgba(255, 248, 200, .50);
+}
+
+#solutions .product-card,
+#about .space-y-6 > .rounded-lg.border.bg-card {
+    border-color: #e5e7eb !important;
+    box-shadow: 0 2px 5px rgba(17, 24, 39, .025), 0 5px 12px rgba(17, 24, 39, .035) !important;
+}
+
+#solutions .product-card:hover {
+    box-shadow: 0 3px 8px rgba(17, 24, 39, .035), 0 8px 18px rgba(17, 24, 39, .045) !important;
+}
+
+#solutions .grid > .product-card,
+#about .space-y-6 > .rounded-lg.border.bg-card {
+    --google-card-color: #4285F4;
+}
+
+#solutions .grid > .product-card:nth-child(2),
+#about .space-y-6 > .rounded-lg.border.bg-card:nth-child(2) {
+    --google-card-color: #DB4437;
+}
+
+#solutions .grid > .product-card:nth-child(3),
+#about .space-y-6 > .rounded-lg.border.bg-card:nth-child(3) {
+    --google-card-color: #F4B400;
+}
+
+#solutions .grid > .product-card:nth-child(4),
+#about .space-y-6 > .rounded-lg.border.bg-card:nth-child(4) {
+    --google-card-color: #0F9D58;
+}
+
+#solutions .grid > .product-card {
+    border-top-color: var(--google-card-color) !important;
+}
+
+#solutions .grid > .product-card h3,
+#solutions .grid > .product-card a {
+    color: var(--google-card-color) !important;
+    border-color: var(--google-card-color) !important;
+}
+
+#about .space-y-6 > .rounded-lg.border.bg-card {
+    border-left-color: var(--google-card-color) !important;
 }
 
 .product-card {
