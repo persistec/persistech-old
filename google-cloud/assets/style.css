@@ -3782,9 +3782,10 @@ section.bg-white,
     box-shadow: 0 2px 5px rgba(17, 24, 39, .025), 0 5px 12px rgba(17, 24, 39, .035) !important;
 }
 
-#solutions .product-card:hover {
+/* Removed to avoid conflict with .google-card:hover shadow */
+/* #solutions .product-card:hover {
     box-shadow: 0 3px 8px rgba(17, 24, 39, .035), 0 8px 18px rgba(17, 24, 39, .045) !important;
-}
+} */
 
 #solutions .grid > .product-card,
 #about .space-y-6 > .rounded-lg.border.bg-card {
@@ -4004,4 +4005,16 @@ footer a:active {
 .bg-persistec-gold,
 a.bg-persistec-gold {
     transition: background 0.3s ease-in-out !important;
+}
+
+.google-card {
+    background: #ffffff !important;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease !important;
+}
+
+/* Use high specificity to ensure standardization across all sections */
+#root .google-card:hover, body .google-card:hover {
+    background: rgba(226, 192, 74, .06) !important;
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
 }

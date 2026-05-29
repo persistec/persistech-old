@@ -118,7 +118,7 @@
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossas Soluções Google</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card google-card border-t-4 h-full flex flex-col" style="border-top-color: #4285F4;" data-fade data-delay="0">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/6dc61029-4ebd-4bca-8fe0-620950da65e7.png" alt="Google Chrome" class="h-16 w-auto" />
@@ -134,7 +134,7 @@
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #DB4437;" data-fade data-delay="100">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card google-card border-t-4 h-full flex flex-col" style="border-top-color: #DB4437;" data-fade data-delay="100">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/cefa7a0a-9c61-4b02-8b93-43aac9778ccf.png" alt="Google Workspace" class="h-16 w-auto" />
@@ -150,7 +150,7 @@
                                 </div>
 
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #0F9D58;" data-fade data-delay="200">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card google-card border-t-4 h-full flex flex-col" style="border-top-color: #0F9D58;" data-fade data-delay="200">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/d4951300-2e4a-4e69-997b-ddaaf0b8f499.png" alt="Google Workspace for Education" class="h-16 w-auto" />
@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
 
-                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card border-t-4 h-full flex flex-col" style="border-top-color: #F4B400;" data-fade data-delay="300">
+                                <div class="rounded-lg border bg-card text-card-foreground shadow-sm product-card google-card border-t-4 h-full flex flex-col" style="border-top-color: #F4B400;" data-fade data-delay="300">
                                     <div class="flex flex-col space-y-1.5 p-6">
                                         <div class="flex items-center justify-center mb-4">
                                             <img src="assets/img/07214a85-b21d-4f78-92f3-4791ccac0691.png" alt="Google Cloud Platform(GCP)" class="h-16 w-auto" />
@@ -208,28 +208,28 @@
                                 </div>
 
                                 <div class="space-y-6">
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-blue" data-fade data-delay="0">
+                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm google-card border-l-4 border-persistec-blue" data-fade data-delay="0">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Melhor Preço</h3>
                                             <p class="text-gray-600">Como parceira do Google, oferecemos planos competitivos, com pagamento em Kwanzas.</p>
                                         </div>
                                     </div>
 
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-red" data-fade data-delay="100">
+                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm google-card border-l-4 border-persistec-red" data-fade data-delay="100">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Suporte Premium</h3>
                                             <p class="text-gray-600">Suporte técnico especializado e atendimento prioritário para todas as soluções Google.</p>
                                         </div>
                                     </div>
 
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-yellow" data-fade data-delay="200">
+                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm google-card border-l-4 border-persistec-yellow" data-fade data-delay="200">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Especialistas Certificados</h3>
                                             <p class="text-gray-600">Nossa equipe é composta por profissionais com certificações Google, especialistas em cada produto.</p>
                                         </div>
                                     </div>
 
-                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-l-4 border-persistec-green" data-fade data-delay="300">
+                                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm google-card border-l-4 border-persistec-green" data-fade data-delay="300">
                                         <div class="p-6">
                                             <h3 class="text-xl font-semibold mb-2">Experiência Comprovada</h3>
                                             <p class="text-gray-600">Vários Projetos implementados com sucesso, em empresas de diversos portes e segmentos.</p>
@@ -246,9 +246,9 @@
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Nossos Clientes</h2>
 
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <div class="rounded-lg border text-card-foreground bg-white/5 backdrop-blur-sm shadow-lg" data-fade data-delay="0">
+                                <div class="rounded-lg border text-card-foreground bg-white shadow-lg google-card" data-fade data-delay="0">
                                     <div class="p-6 pt-6">
-                                        <p class="text-gray-300 mb-6">I am pleased to share that the implementation of Google Workspace has been highly beneficial for our organization. The enhanced collaboration, increased productivity, and improved communication have transformed our work processes.</p>
+                                        <p class="text-gray-600 mb-6">I am pleased to share that the implementation of Google Workspace has been highly beneficial for our organization. The enhanced collaboration, increased productivity, and improved communication have transformed our work processes.</p>
                                         <div class="flex items-center">
                                             <div class="client-logo-frame mr-4">
                                                 <img src="assets/img/ddm.png" alt="DDM Company" />
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
 
-                                <div class="rounded-lg border text-card-foreground bg-white shadow-lg" data-fade data-delay="100">
+                                <div class="rounded-lg border text-card-foreground bg-white shadow-lg google-card" data-fade data-delay="100">
                                     <div class="p-6 pt-6">
                                         <p class="text-gray-600 mb-6">A mudança para o Google Cloud Platform trouxe mais segurança e escalabilidade para nossos sistemas. O suporte da Persistech foi excelente durante todo o processo.</p>
                                         <div class="flex items-center">
@@ -276,7 +276,7 @@
                                     </div>
                                 </div>
 
-                                <div class="rounded-lg border text-card-foreground bg-white shadow-lg" data-fade data-delay="200">
+                                <div class="rounded-lg border text-card-foreground bg-white shadow-lg google-card" data-fade data-delay="200">
                                     <div class="p-6 pt-6">
                                         <p class="text-gray-600 mb-6">A migração do Windows File Server para o Google Shared Drive foi um sucesso. A Persistech, como parceira especializada da Google, garantiu uma transição segura, organizada e alinhada às necessidades da Southco.</p>
                                         <div class="flex items-center">
